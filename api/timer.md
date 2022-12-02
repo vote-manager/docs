@@ -1,24 +1,24 @@
 ---
 description: >-
-  Welcome to the Timer API. Schedule webhook requests with custom payload &
+  Welcome to the Prohooks API. Schedule webhook requests with custom payload &
   method!
 ---
 
 # Timer API
 
 {% hint style="info" %}
-API Link: https://timers.votemanager.xyz
+API Link: https://prohooks.votemanager.xyz
 {% endhint %}
 
 ### API Methods
 
 {% swagger method="post" path="/new" baseUrl="" summary="Create" %}
 {% swagger-description %}
-Create a new timer
+Create a new schedule
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="key" required="true" %}
-API Key
+{% swagger-parameter in="body" name="token" required="true" %}
+API token
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="url" required="true" %}
