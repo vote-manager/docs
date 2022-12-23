@@ -6,10 +6,16 @@
 
 * [General](bots/general.md)
 * [Top.gg](bots/topgg.md)
-* [DiscordBotList.com](bots/dbl.md)
-* [Discords.com](bots/discords.md)
+* [Discord Bot List](bots/dbl.md)
+* [Discords](bots/discords.md)
 * [Editing](bots/edit.md)
 * [Deleting](bots/delete.md)
+
+## Setup - Servers <a href="#servers" id="servers"></a>
+
+* [General](servers/general.md)
+* [Top.gg](servers/topgg.md)
+* [Discord Servers](servers/discord-servers.md)
 
 ## Rewards
 
@@ -22,7 +28,7 @@
 
 ## Public APIs <a href="#api" id="api"></a>
 
-* [Timer API](api/timer.md)
+* [Timer API](api/timer-api.md)
 
 ## Useful Links
 

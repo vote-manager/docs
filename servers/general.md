@@ -1,15 +1,14 @@
 # General
 
-Vote Manager supports many bot lists including Top.gg, Discords.com & Discord Bot List. Below, you can find information about how to set up Vote Manager for your Discord Bot
+Vote Manager supports vote tracking for servers on Top.gg & Discord Servers. Below, you can find information about how to set up Vote Manager for your Discord Bot
 
-To get started with setup, run the `/setup create bot` command and fill in the options
+To get started with setup, run the `/setup create server` command and fill in the options
 
-<figure><img src="../.gitbook/assets/Bot Create #1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Server Create #1.png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="Required Options" %}
 * `platform` - The platform you want to setup the vote tracker on
-* `bot` - The bot you want to setup the vote tracker for
 * `channel` - The channel to send your vote message in
 {% endtab %}
 
@@ -68,9 +67,8 @@ Once you have made your custom embed, press the submit button. This will close t
 <figure><img src="../.gitbook/assets/Bot Create #4.png" alt=""><figcaption></figcaption></figure>
 
 * **1-4**: These are the next steps for your setup. You can find more detail about them by going to the page in our docs for the bot list you are using:
-  * [Top.gg](topgg.md)
-  * [DiscordBotList.com](dbl.md)
-  * [Discords.com](discords.md)
+  * [Top.gg](../bots/topgg.md)
+  * Discord Servers
 * **5**: Details about your vote tracker including the channel, role & duration
 * **6**: This is the authentication password for your tracker. **Do not share this with anyone else!** We also recommend keeping this somewhere safe as you may need it later
 * **7**: The second embed is a preview of your vote message

@@ -8,7 +8,7 @@ Deletion of your setup generally can't be undone and is final. See below for a l
 
 Should you need to delete a vote tracker at any point, you can use the `/setup delete bot` command. Simply fill in the required options and run the command
 
-<figure><img src="../.gitbook/assets/sd1.png" alt=""><figcaption><p>Setup Delete command</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bot Delete #1.png" alt=""><figcaption><p>Setup Delete command</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Required Options" %}
@@ -17,7 +17,7 @@ Should you need to delete a vote tracker at any point, you can use the `/setup d
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../.gitbook/assets/sd2.png" alt=""><figcaption><p>Options have been filled out</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bot Delete #2.png" alt=""><figcaption><p>Options have been filled out</p></figcaption></figure>
 
 Once you run the command, the setup for the provided bot on the provided platform will be deleted along with all cached votes. Please see below for more details on what gets deleted by the `/setup delete` command and what to do if you accidentally delete your setup
 
