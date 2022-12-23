@@ -4,7 +4,7 @@
 
 ## Setup - Bots <a href="#bots" id="bots"></a>
 
-* [General](bots/general.md)
+* [Creating](bots/create.md)
 * [Top.gg](bots/topgg.md)
 * [Discord Bot List](bots/dbl.md)
 * [Discords](bots/discords.md)
@@ -13,9 +13,11 @@
 
 ## Setup - Servers <a href="#servers" id="servers"></a>
 
-* [General](servers/general.md)
+* [Creating](servers/create.md)
 * [Top.gg](servers/topgg.md)
 * [Discord Servers](servers/discord-servers.md)
+* [Copy of Editing](servers/edit.md)
+* [Page 1](servers/page-1.md)
 
 ## Rewards
 
@@ -25,10 +27,6 @@
 ## Customisation
 
 * [Variables](customisation/variables.md)
-
-## Public APIs <a href="#api" id="api"></a>
-
-* [Timer API](api/timer-api.md)
 
 ## Useful Links
 
