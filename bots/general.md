@@ -1,14 +1,15 @@
-# General
+# Creating
 
-Vote Manager supports vote tracking for servers on Top.gg & Discord Servers. Below, you can find information about how to set up Vote Manager for your Discord Bot
+Vote Manager supports many bot lists including Top.gg, Discords.com & Discord Bot List. Below, you can find information about how to set up Vote Manager for your Discord Bot
 
-To get started with setup, run the `/setup create server` command and fill in the options
+To get started with setup, run the `/setup create bot` command and fill in the options
 
-<figure><img src="../.gitbook/assets/Server Create #1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bot Create #1.png" alt=""><figcaption><p>Setup Create command</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Required Options" %}
 * `platform` - The platform you want to setup the vote tracker on
+* `bot` - The bot you want to setup the vote tracker for
 * `channel` - The channel to send your vote message in
 {% endtab %}
 
@@ -19,11 +20,11 @@ To get started with setup, run the `/setup create server` command and fill in th
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../.gitbook/assets/Bot Create #2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bot Create #2.png" alt=""><figcaption><p>Options have been filled out</p></figcaption></figure>
 
 Once you have filled out the options, run the command. Upon doing so, a  pop-up will appear allowing you to customise the embed on your vote message. Please see below for details about required & optional fields as well as default values
 
-<figure><img src="../.gitbook/assets/Bot Create #3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bot Create #3.png" alt=""><figcaption><p>Vote Embed Builder</p></figcaption></figure>
 
 {% hint style="success" %}
 You can use variables to have vote infomation in your vote message. see [here](../customisation/variables.md) for more details
@@ -64,11 +65,12 @@ You can use variables to have vote infomation in your vote message. see [here](.
 
 Once you have made your custom embed, press the submit button. This will close the pop-up, and you will be sent a message similar to the following
 
-<figure><img src="../.gitbook/assets/Bot Create #4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bot Create #4.png" alt=""><figcaption><p>Last step in Discord</p></figcaption></figure>
 
 * **1-4**: These are the next steps for your setup. You can find more detail about them by going to the page in our docs for the bot list you are using:
-  * [Top.gg](../bots/topgg.md)
-  * Discord Servers
+  * [Top.gg](topgg.md)
+  * [DiscordBotList.com](dbl.md)
+  * [Discords.com](discords.md)
 * **5**: Details about your vote tracker including the channel, role & duration
 * **6**: This is the authentication password for your tracker. **Do not share this with anyone else!** We also recommend keeping this somewhere safe as you may need it later
 * **7**: The second embed is a preview of your vote message

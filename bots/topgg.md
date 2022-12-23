@@ -7,5 +7,5 @@ description: >-
 # Top.gg
 
 {% hint style="info" %}
-This continues from the tutorial on the previous page ([here](create.md))
+This continues from the tutorial on the previous page ([here](general.md))
 {% endhint %}

@@ -4,20 +4,20 @@
 
 ## Setup - Bots <a href="#bots" id="bots"></a>
 
-* [Creating](bots/create.md)
+* [Creating](bots/general.md)
+* [Editing](bots/edit.md)
+* [Deleting](bots/delete.md)
 * [Top.gg](bots/topgg.md)
 * [Discord Bot List](bots/dbl.md)
 * [Discords](bots/discords.md)
-* [Editing](bots/edit.md)
-* [Deleting](bots/delete.md)
 
 ## Setup - Servers <a href="#servers" id="servers"></a>
 
-* [Creating](servers/create.md)
+* [Creating](servers/general.md)
+* [Editing](servers/edit.md)
+* [Deleting](servers/delete.md)
 * [Top.gg](servers/topgg.md)
 * [Discord Servers](servers/discord-servers.md)
-* [Copy of Editing](servers/edit.md)
-* [Page 1](servers/page-1.md)
 
 ## Rewards
 
