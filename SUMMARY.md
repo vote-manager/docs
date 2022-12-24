@@ -18,7 +18,7 @@
 * [Editing](servers/edit.md)
 * [Deleting](servers/delete.md)
 * [Top.gg](servers/topgg.md)
-* [Discord Servers](servers/discord-servers.md)
+* [Discord Servers](servers/discordservers.md)
 
 ## Role Rewards <a href="#rewards" id="rewards"></a>
 
