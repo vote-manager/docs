@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
+* [Variables](variables.md)
 
 ## Setup - Bots <a href="#bots" id="bots"></a>
 
@@ -23,10 +24,6 @@
 
 * [Adding](rewards/add.md)
 * [Removing](rewards/remove.md)
-
-## Customisation
-
-* [Variables](customisation/variables.md)
 
 ## Useful Links
 

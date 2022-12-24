@@ -31,7 +31,7 @@ Once you have filled out the options, run the command. Upon doing so, a  pop-up 
 <figure><img src="../.gitbook/assets/Server Create #3.png" alt=""><figcaption><p>Vote Embed Builder</p></figcaption></figure>
 
 {% hint style="success" %}
-You can use variables to have vote infomation in your vote message. see [here](../customisation/variables.md) for more details
+You can use variables to have vote infomation in your vote message. see [here](../variables.md) for more details
 {% endhint %}
 
 {% tabs %}
@@ -72,7 +72,7 @@ Once you have made your custom embed, press the submit button. This will close t
 <figure><img src="../.gitbook/assets/Server Create #4.png" alt=""><figcaption><p>Last step in Discord</p></figcaption></figure>
 
 * **1**: These are the next steps for your setup. You can find more detail about them by going to the page in our docs for the bot list you are using:
-  * [Top.gg](topgg.md)
+  * [Top.gg](broken-reference)
   * [Discord Servers](discord-servers.md)
 * **2**: Details about your vote tracker including the channel, role & duration
 * **3**: This is the authentication password for your tracker. **Do not share this with anyone else!** We also recommend keeping this somewhere safe as you may need it later

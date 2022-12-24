@@ -32,7 +32,7 @@ Once you have filled out the options, run the command. Upon doing so, a  pop-up 
 <figure><img src="../.gitbook/assets/Bot Create #3.png" alt=""><figcaption><p>Vote Embed Builder</p></figcaption></figure>
 
 {% hint style="success" %}
-You can use variables to have vote infomation in your vote message. see [here](../customisation/variables.md) for more details
+You can use variables to have vote infomation in your vote message. see [here](../variables.md) for more details
 {% endhint %}
 
 {% tabs %}
