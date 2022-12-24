@@ -2,6 +2,7 @@
 description: >-
   Find a more detailed description about setting up a bot on Discord Bot List
   with Vote Manager
+layout: editorial
 ---
 
 # Discord Bot List

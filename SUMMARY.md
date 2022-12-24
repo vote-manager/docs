@@ -10,7 +10,6 @@
 * [Deleting](bots/delete.md)
 * [Top.gg](bots/topgg.md)
 * [Discord Bot List](bots/dbl.md)
-* [Discords](bots/discords.md)
 
 ## Setup - Servers <a href="#servers" id="servers"></a>
 
