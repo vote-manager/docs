@@ -74,7 +74,7 @@ Once you have made your custom embed, press the submit button. This will close t
 
 * **1-4**: These are the next steps for your setup. You can find more detail about them by going to the page in our docs for the bot list you are using:
   * [Top.gg](topgg.md)
-  * [DiscordBotList.com](dbl.md)
+  * [DiscordBotList.com](broken-reference)
   * [Discords.com](broken-reference)
 * **5**: Details about your vote tracker including the channel, role & duration
 * **6**: This is the authentication password for your tracker. **Do not share this with anyone else!** We also recommend keeping this somewhere safe as you may need it later
