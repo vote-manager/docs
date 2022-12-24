@@ -18,12 +18,13 @@
 * [Editing](servers/edit.md)
 * [Deleting](servers/delete.md)
 * [Top.gg](servers/topgg.md)
-* [Discord Servers](servers/discordservers.md)
+* [Discord Servers](servers/discord-servers.md)
 
 ## Role Rewards <a href="#rewards" id="rewards"></a>
 
 * [Adding](rewards/add.md)
 * [Removing](rewards/remove.md)
+* [Via Dashboard](rewards/dash.md)
 
 ## Useful Links
 
