@@ -1,6 +1,11 @@
-# Creating
+---
+description: >-
+  Vote Manager supports many bot lists including Top.gg, Discords.com & Discord
+  Bot List. Below, you can find information about how to set up Vote Manager for
+  your Discord Bot
+---
 
-Vote Manager supports many bot lists including Top.gg, Discords.com & Discord Bot List. Below, you can find information about how to set up Vote Manager for your Discord Bot
+# Creating
 
 To get started with setup, run the `/setup create bot` command and fill in the options
 

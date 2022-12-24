@@ -1,6 +1,10 @@
-# Deleting
+---
+description: >-
+  We don't like to see you go but, if you do you might want to delete your vote
+  tracker. The steps below will help you to do so
+---
 
-We hope you won't need to use this, but if you do, you can delete your setup using the  `/setup delete` command.
+# Deleting
 
 {% hint style="danger" %}
 Deletion of your setup generally can't be undone and is final. See below for a list of things deleted when you delete your setup

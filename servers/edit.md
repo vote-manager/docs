@@ -1,6 +1,10 @@
-# Editing
+---
+description: >-
+  Made a slight typo in your vote embed? Need to change the vote message
+  channel? You can edit your setup using the steps below
+---
 
-If you made a small mistake in your setup or you just want to tweak the vote embed slightly, fear not! The `/setup edit` command is here to help
+# Editing
 
 {% hint style="info" %}
 This requires you to already have an existing setup for the server you are running the command in, on the platform you want to edit

@@ -19,7 +19,7 @@
 * [Top.gg](servers/topgg.md)
 * [Discord Servers](servers/discord-servers.md)
 
-## Rewards
+## Role Rewards <a href="#rewards" id="rewards"></a>
 
 * [Adding](rewards/adding.md)
 * [Removing](rewards/removing.md)
