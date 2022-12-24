@@ -21,8 +21,8 @@
 
 ## Role Rewards <a href="#rewards" id="rewards"></a>
 
-* [Adding](rewards/adding.md)
-* [Removing](rewards/removing.md)
+* [Adding](rewards/add.md)
+* [Removing](rewards/remove.md)
 
 ## Customisation
 

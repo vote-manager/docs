@@ -1,6 +1,11 @@
-# Creating
+---
+description: >-
+  Vote Manager supports vote tracking for servers on Top.gg & Discord Servers.
+  Below, you can find information about how to set up Vote Manager for your
+  Discord Bot
+---
 
-Vote Manager supports vote tracking for servers on Top.gg & Discord Servers. Below, you can find information about how to set up Vote Manager for your Discord Bot
+# Creating
 
 To get started with setup, run the `/setup create server` command and fill in the options
 
