@@ -85,7 +85,7 @@ If a server was voted for, then any `app` tags will be replaced with nothing, or
 
 ### `app` Properties
 
-<table data-full-width="true"><thead><tr><th width="197">Tag</th><th>Description</th><th data-type="select" data-multiple>Valid For</th></tr></thead><tbody><tr><td><code>id</code></td><td>ID of the voted bot</td><td></td></tr><tr><td><code>name</code></td><td>Name of the voted bot</td><td></td></tr><tr><td><code>created_at</code></td><td>Date the voted bot was made</td><td></td></tr><tr><td><code>joined_at</code></td><td>Date the voted bot joined the server</td><td></td></tr><tr><td><code>avatar_url</code></td><td>Avatar of the voted bot</td><td></td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="197">Tag</th><th>Description</th><th data-type="select" data-multiple>Valid For</th></tr></thead><tbody><tr><td><code>id</code></td><td>ID of the voted bot</td><td></td></tr><tr><td><code>username</code></td><td>Name of the voted bot</td><td></td></tr><tr><td><code>created_at</code></td><td>Date the voted bot was made</td><td></td></tr><tr><td><code>joined_at</code></td><td>Date the voted bot joined the server</td><td></td></tr><tr><td><code>avatar_url</code></td><td>Avatar of the voted bot</td><td></td></tr></tbody></table>
 
 ### `platform` Properties
 
