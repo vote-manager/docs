@@ -12,6 +12,7 @@
   * [Discord List](bots/create/dlist.md)
   * [Infinity Bots](bots/create/ibl.md)
   * [Botlist.me](bots/create/botlist.md)
+  * [Void Bots](bots/create/voidbots.md)
   * [TopCord](bots/create/topcord.md)
 * [Editing](bots/edit.md)
 * [Deleting](bots/delete.md)
