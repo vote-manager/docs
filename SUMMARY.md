@@ -40,4 +40,4 @@
 * [Status](https://status.votemanager.xyz)
 * [Website](https://votemanager.xyz)
 * [Donations (Ko-fi)](https://ko-fi.com/votemanager)
-* [Vote (Top.gg)](https://top.gg/bot/959699003010871307/vote)
+* [Donations (PayPal)](https://www.paypal.com/paypalme/YSXYASSER)
