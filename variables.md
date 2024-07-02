@@ -96,14 +96,10 @@ If a server was voted for, then any `app` tags will be replaced with nothing, or
 <table data-full-width="true"><thead><tr><th width="202">Tag</th><th>Description</th><th>Valid For<select multiple><option value="23f8a3fbeefa4b0c98dcbfe90dab9341" label="Image" color="blue"></option><option value="9f3ee708c4954e3db63b5860055c3f0f" label="Text" color="blue"></option><option value="775955a3caf64bb4995aad2d830e795b" label="Colour" color="blue"></option><option value="01c08ead21f44c7a805ffdb85d907775" label="Date" color="blue"></option><option value="db019b5ebd864b24ab03e16a60c1e975" label="Link" color="blue"></option></select></th></tr></thead><tbody><tr><td><code>name</code></td><td>Name of the platform voted on</td><td><span data-option="9f3ee708c4954e3db63b5860055c3f0f">Text</span></td></tr><tr><td><code>next_vote.hours</code></td><td>Relative time until the user can vote (e.g. <strong>in 6 hours</strong>)</td><td><span data-option="9f3ee708c4954e3db63b5860055c3f0f">Text</span></td></tr><tr><td><code>next_vote</code></td><td>Time when the user is next able to vote</td><td><span data-option="9f3ee708c4954e3db63b5860055c3f0f">Text, </span><span data-option="01c08ead21f44c7a805ffdb85d907775">Date</span></td></tr><tr><td><code>url</code></td><td>Link to the platform</td><td><span data-option="9f3ee708c4954e3db63b5860055c3f0f">Text, </span><span data-option="db019b5ebd864b24ab03e16a60c1e975">Link</span></td></tr><tr><td><code>view_url</code></td><td>Link to the bot/servers page on the platform</td><td><span data-option="9f3ee708c4954e3db63b5860055c3f0f">Text, </span><span data-option="db019b5ebd864b24ab03e16a60c1e975">Link</span></td></tr><tr><td><code>vote_url</code></td><td>Link to vote on the platform</td><td><span data-option="9f3ee708c4954e3db63b5860055c3f0f">Text, </span><span data-option="db019b5ebd864b24ab03e16a60c1e975">Link</span></td></tr><tr><td><code>icon_url</code></td><td>Platform's icon/logo</td><td><span data-option="23f8a3fbeefa4b0c98dcbfe90dab9341">Image, </span><span data-option="db019b5ebd864b24ab03e16a60c1e975">Link</span></td></tr></tbody></table>
 
 {% hint style="warning" %}
-The `platform.next_vote` and `platform.next_vote.hours` tags are only supported in message content, embed field values, embed descriptions and embed timestamps due to a limitation of Discord's formatting. Using these tags in other fields will cuase unexpected formatting
+The `platform.next_vote` and `platform.next_vote.hours` tags are only supported in message content and embed fields, descriptions & timestamps due to a limitation of Discord's formatting. Using these tags in other fields will cuase unexpected formatting
 {% endhint %}
 
 ### `rewards` Properties
-
-
-
-
 
 <table data-full-width="true"><thead><tr><th width="207">Tag</th><th>Description</th><th>Valid For<select multiple><option value="10c03e80e2fd40dd8f0994356bf57694" label="Image" color="blue"></option><option value="a8d8f25826254ca08a6596be3afe0126" label="Text" color="blue"></option><option value="b981992639664c94a1c7651aae056a4b" label="Colour" color="blue"></option><option value="13305ff63e54422383c87be08fbd2265" label="Date" color="blue"></option><option value="54739159e2ec454886953de9a39bbb9a" label="Link" color="blue"></option></select></th></tr></thead><tbody><tr><td><code>role</code></td><td>Mention the primary reward role</td><td><span data-option="a8d8f25826254ca08a6596be3afe0126">Text</span></td></tr><tr><td><code>role.id</code></td><td>ID of the primary reward role</td><td><span data-option="a8d8f25826254ca08a6596be3afe0126">Text</span></td></tr><tr><td><code>role.name</code></td><td>Name of the primary reward role</td><td><span data-option="a8d8f25826254ca08a6596be3afe0126">Text</span></td></tr><tr><td><code>role.duration</code></td><td>Duration primary reward role is kept for</td><td><span data-option="a8d8f25826254ca08a6596be3afe0126">Text</span></td></tr><tr><td><code>role.color</code></td><td>Color of the primary reward role</td><td><span data-option="b981992639664c94a1c7651aae056a4b">Colour</span></td></tr></tbody></table>
 
@@ -117,6 +113,25 @@ These tags have no Top Levels Tags and are used as just `{tag}`
 
 <table data-full-width="true"><thead><tr><th width="207">Tag</th><th>Description</th><th>Valid For<select multiple><option value="9e1929b7c03944d7b352dc566d5a238d" label="Image" color="blue"></option><option value="6b96304e2f634b3698a983187ab28eee" label="Text" color="blue"></option><option value="f0c39f1be55e46fb9af86c597e5dfdcb" label="Colour" color="blue"></option><option value="805b9a31e0414bba9cf131690a8f5172" label="Date" color="blue"></option><option value="2b40c9716d084afd8bc2352e05c371a9" label="Link" color="blue"></option></select></th></tr></thead><tbody><tr><td><code>date</code></td><td>Current date</td><td><span data-option="6b96304e2f634b3698a983187ab28eee">Text, </span><span data-option="805b9a31e0414bba9cf131690a8f5172">Date</span></td></tr><tr><td><code>monthly_votes</code></td><td>Voter's votes in the monthly bucket. </td><td><span data-option="6b96304e2f634b3698a983187ab28eee">Text</span></td></tr></tbody></table>
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 `{monthly_votes}` has been deprecated and may be removed in a future update. You should use the tag `{voter.buckets:monthly}` instead
 {% endhint %}
+
+## TagScript  V1
+
+{% hint style="danger" %}
+TagScript V1 is now deprecated and will not work inside of Vote Messages anymore. If you notice tags not getting replaced, make sure to check its a TagScript V2 variable
+{% endhint %}
+
+### Text Variables
+
+The following variables are supported in all embed fields except image & field name & values. Please see below for a list of supported variables for images&#x20;
+
+<table><thead><tr><th width="141">Name</th><th>Description</th><th width="81" data-type="checkbox">Bots</th><th width="92" data-type="checkbox">Servers</th></tr></thead><tbody><tr><td>tag</td><td>Voters username &#x26; tag</td><td>true</td><td>true</td></tr><tr><td>id</td><td>Voters user ID</td><td>true</td><td>true</td></tr><tr><td>mention</td><td>Mentions the voter</td><td>true</td><td>true</td></tr><tr><td>total_votes</td><td>Voters total votes for the bot/server</td><td>true</td><td>true</td></tr><tr><td>monthly_votes</td><td>Voters votes for the bot/server this month</td><td>true</td><td>true</td></tr><tr><td>platform</td><td>Platform the bot/server was voted on</td><td>true</td><td>true</td></tr><tr><td>link</td><td>Link to vote for the bot/servre</td><td>true</td><td>true</td></tr><tr><td>date</td><td>Current date</td><td>true</td><td>true</td></tr><tr><td>role</td><td>Role given to voters</td><td>true</td><td>true</td></tr><tr><td>duration</td><td>Duration vote role is kept for</td><td>true</td><td>true</td></tr><tr><td>guild_name</td><td>Name of the voted or current server</td><td>true</td><td>true</td></tr><tr><td>guild_id</td><td>ID of the voted or current server</td><td>true</td><td>true</td></tr><tr><td>bot_name</td><td>Name of the voted bot</td><td>true</td><td>false</td></tr><tr><td>bot_mention</td><td>Mentions the voted bot</td><td>true</td><td>false</td></tr></tbody></table>
+
+### Image Variable List
+
+The following variables are only supported for the author, footer & main image fields of the vote embed
+
+<table><thead><tr><th width="135">Name</th><th>Description</th><th width="74" data-type="checkbox">Bots</th><th width="100" data-type="checkbox">Servers</th></tr></thead><tbody><tr><td>user_avtar</td><td>Voters icon</td><td>true</td><td>true</td></tr><tr><td>app_icon</td><td>Icon of the voted bot/server</td><td>true</td><td>true</td></tr></tbody></table>
+
