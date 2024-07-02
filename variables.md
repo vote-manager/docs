@@ -39,11 +39,11 @@ tag
 
 ## TagScript V2
 
-TagScript V2 is our current system for variables & dynamic content in messages. TagScript V1 only supported text variables and a few image variables, with inconsistent naming and formats. TagScript V2 fixes those issues
+TagScript V2 is our current system for variables & dynamic content in messages. TagScript V1 only supported text variables and a few image variables, with inconsistent naming and formats.
 
-All V2 tags has a Top Level Tag, followed by a period (`.`) and then a property. This makes it much easier to see what a tag is for and gives access to many more tags
+All V2 tags has a Top Level Tag, followed by a period (`.`) and then a property. This makes it much easier to see what a tag is for and gives access to many more tags.
 
-In addition to those improvements, TagScript V2 adds more types of tag: **Colour**, **Link** & **Date** tags. Some can be used with the existing setup commands & embed customisation in Discord, and some, such as link tags, will only be useful when customising the extra fields available in the [Dashboard](https://dashboard.votemanager.xyz)
+In addition to these fixes and improvements, TagScript V2 adds more types of tag: **Colour**, **Link** & **Date** tags. Some can be used with the existing setup commands & embed customisation in Discord, and some, such as link tags, will only be useful when customising the extra fields available in the [Dashboard](https://dashboard.votemanager.xyz).
 
 ### Top Level Tags
 
