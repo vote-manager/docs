@@ -6,6 +6,10 @@ description: >-
 
 # Top.gg
 
+{% hint style="danger" %}
+Top.gg has how deprecated server listing. You can no longer create new trackers for servers on Top.gg and we recommend you delete existing ones&#x20;
+{% endhint %}
+
 {% hint style="info" %}
 This continues from the tutorial on the previous page ([here](../../bots/create/))
 {% endhint %}
