@@ -2,6 +2,7 @@
 
 * [Home](README.md)
 * [Variables](variables.md)
+* [Troubleshooting](troubleshooting.md)
 
 ## Setup - Bots <a href="#bots" id="bots"></a>
 
@@ -35,7 +36,7 @@
 
 ## Useful Links
 
-* [Invite Vote Manager](https://discord.com/oauth2/authorize?client\_id=959699003010871307\&permissions=292863462593\&scope=bot%20applications.commands)
+* [Invite Vote Manager](https://discord.com/oauth2/authorize?client_id=959699003010871307\&permissions=292863462593\&scope=bot%20applications.commands)
 * [Support Server](https://discord.gg/sM7nGg9Ev5)
 * [Status](https://status.votemanager.xyz)
 * [Website](https://votemanager.xyz)
