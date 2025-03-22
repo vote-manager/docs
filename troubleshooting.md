@@ -1,5 +1,5 @@
 ---
-description: Here is a few problems people run into frequently and some solutions
+description: Here are a few problems people run into frequently and some solutions
 ---
 
 # Troubleshooting
