@@ -30,8 +30,8 @@ Once you have filled out the required fields, click the **Edit** button to save 
 
 <figure><img src="../../.gitbook/assets/botlist-3.png" alt=""><figcaption><p>Webhook URL &#x26; Authorization have been filled out</p></figcaption></figure>
 
-If you forget or lose your passphrase, you can run the `/setup passphrase bot` command
+If you forget or lose your passphrase you can run the `/trackers passphrase` command. Select **Bot** for the type then choose the tracker from the options and run the command
 
-<figure><img src="../../.gitbook/assets/botlist-4.png" alt=""><figcaption><p>Setup Passphrase Command</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tracker_passphrase.png" alt=""><figcaption><p>Trackers Passphrase Command</p></figcaption></figure>
 
 Your vote tracker is now fully setup! A message will be sent with your configured embed to the channel you configured whenever a user upvotes your bot

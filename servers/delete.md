@@ -10,19 +10,20 @@ description: >-
 Deletion of your setup generally can't be undone and is final. See below for a list of things deleted when you delete your setup
 {% endhint %}
 
-Should you need to delete a vote tracker at any point, you can use the `/setup delete server` command. Simply fill in the required options and run the command
+Should you need to delete a vote tracker at any point, you can use the `/trackers delete` command. Simply fill in the required options and run the command
 
-<figure><img src="../.gitbook/assets/Server Delete #1.png" alt=""><figcaption><p>Setup Delete command</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/tracker_delete.png" alt=""><figcaption><p>Trackers Delete command</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Required Options" %}
-* `platform` - The platform you want to edit the setup for
+* `type` - The type of tracker (select **Server**)
+* `tracker` - The tracker you wish to edit
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../.gitbook/assets/Server Delete #1.png" alt=""><figcaption><p>Options have been filled out</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/trackers_delete_server.png" alt=""><figcaption><p>Options have been filled out</p></figcaption></figure>
 
-Once you run the command, the setup for the provided bot on the provided platform will be deleted along with all cached votes. Please see below for more details on what gets deleted by the `/setup delete` command and what to do if you accidentally delete your setup
+Once you run the command, the setup for the provided bot on the provided platform will be deleted along with all cached votes. Please see below for more details on what gets deleted by the `/trackers delete` command and what to do if you accidentally delete your setup
 
 **Please note that there is currently no conformation for setup deletion!**
 

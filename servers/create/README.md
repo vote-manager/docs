@@ -14,13 +14,13 @@ To get started with setup, run the `/setup create server` command and fill in th
 {% tabs %}
 {% tab title="Required Options" %}
 * `platform` - The platform you want to setup the vote tracker on
-* `channel` - The channel to send your vote message in
 {% endtab %}
 
 {% tab title="Optional Options" %}
 * `role` - Role to be given to users after they vote
 * `duration` - How long user should keep the role specified above
 * `ping` - Should the voter be pinged in the vote message
+* `channel` - The channel to send your vote message in
 {% endtab %}
 {% endtabs %}
 
@@ -30,8 +30,8 @@ Once you have filled out the options, run the command. Upon doing so, a  pop-up 
 
 <figure><img src="../../.gitbook/assets/Server Create #3.png" alt=""><figcaption><p>Vote Embed Builder</p></figcaption></figure>
 
-{% hint style="success" %}
-You can use variables to have vote infomation in your vote message. see [here](../../variables.md) for more details
+{% hint style="info" %}
+You can use variables to have vote information in your vote message. see [here](../../variables.md) for more details
 {% endhint %}
 
 {% tabs %}
@@ -40,15 +40,13 @@ You can use variables to have vote infomation in your vote message. see [here](.
   * <mark style="color:green;">**✓**</mark> <mark style="color:green;"></mark><mark style="color:green;">- Variables are supported</mark>
   * <mark style="color:green;">**✓**</mark> <mark style="color:green;"></mark><mark style="color:green;">- Markdown is supported</mark>
 * **Color** - color of the left border on the embed
-  * <mark style="color:red;">**✗**</mark> <mark style="color:red;"></mark><mark style="color:red;">- Variables are not supported</mark>
+  * <mark style="color:green;">**✓**</mark> <mark style="color:green;"></mark><mark style="color:green;">- Variables are supported</mark>
   * <mark style="color:red;">**✗**</mark> <mark style="color:red;"></mark><mark style="color:red;">- Markdown is not supported</mark>
   * <mark style="color:green;">**✓**</mark> <mark style="color:green;"></mark><mark style="color:green;">- Allowed formats</mark>
     * Hex code (Ex `#0bbbb7`)
     * Integer (Ex `0x0bbbb7`)
     * RGB color values (Ex `11, 187, 183`)
     * Preset (Ex `Red`)
-    * Random (use `Random`)
-    * Any other valid format found [here](https://discord.js.org/#/docs/main/main/typedef/ColorResolvable)
 * **Description** - main content of the embed
   * <mark style="color:green;">**✓**</mark> <mark style="color:green;"></mark><mark style="color:green;">- Variables are supported</mark>
   * <mark style="color:green;">**✓**</mark> <mark style="color:green;"></mark><mark style="color:green;">- Markdown is supported</mark>
@@ -58,12 +56,11 @@ You can use variables to have vote infomation in your vote message. see [here](.
 {% endtab %}
 
 {% tab title="Optional Fields" %}
-**Image** - Big image in the embed. Appears below the description
-
-* <mark style="color:red;">**✗**</mark> <mark style="color:red;"></mark><mark style="color:red;">- Variables are not supported</mark>
-* <mark style="color:red;">**✗**</mark> <mark style="color:red;"></mark><mark style="color:red;">- Markdown is not supported</mark>
-* <mark style="color:green;">**✓**</mark> <mark style="color:green;"></mark><mark style="color:green;">- Allowed formats</mark>
-  * Any `https`or `http` link to an image file
+* **Image** - big image in the embed. Appears below the description
+  * <mark style="color:green;">**✓**</mark> <mark style="color:green;"></mark><mark style="color:green;">- Variables are supported</mark>
+  * <mark style="color:red;">**✗**</mark> <mark style="color:red;"></mark><mark style="color:red;">- Markdown is not supported</mark>
+  * <mark style="color:green;">**✓**</mark> <mark style="color:green;"></mark><mark style="color:green;">- Allowed formats</mark>
+    * Any `https`or `http` link to an image file
 {% endtab %}
 {% endtabs %}
 

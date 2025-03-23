@@ -2,6 +2,7 @@
 description: >-
   Find a more detailed description about setting up a bot on TopCord with Vote
   Manager
+hidden: true
 ---
 
 # TopCord
@@ -20,8 +21,8 @@ You should be taken to your bots TopCord settings page. Enter the URL provided i
 
 Next, paste the passphrase provided in step six of the setup message into the **Authorization** box. Finally, save your changes
 
-If you forget or lose your passphrase, you can run the `/setup passphrase bot` command
+If you forget or lose your passphrase you can run the `/trackers passphrase` command. Select **Bot** for the type then choose the tracker from the options and run the command
 
-<figure><img src="../../.gitbook/assets/topcord-3.png" alt=""><figcaption><p>Setup Passphrase Command</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tracker_passphrase.png" alt=""><figcaption><p>Trackers Passphrase Command</p></figcaption></figure>
 
 Your vote tracker is now fully setup! A message will be sent with your configured embed to the channel you configured whenever a user upvotes your bot

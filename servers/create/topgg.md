@@ -2,6 +2,7 @@
 description: >-
   Find a more detailed description about setting up a server on Top.gg with Vote
   Manager
+hidden: true
 ---
 
 # Top.gg
@@ -34,6 +35,6 @@ You should then paste the passphrase shown in step six into the **Authorization*
 
 After entering the required details, click **Save**. Your vote tracker is now fully setup! A message will be sent with your configured embed to the channel you configured whenever a user votes for your server on Top.gg
 
-If you forgot or lose your passphrase, you can view it using the `/setup passphrase server` command
+If you forget or lose your passphrase you can run the `/trackers passphrase` command. Select **Server** for the type then choose the tracker from the options and run the command
 
-<figure><img src="../../.gitbook/assets/Server Top.gg #3.png" alt=""><figcaption><p>Setup Passphrase Command</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tracker_passphrase.png" alt=""><figcaption><p>Trackers Passphrase Command</p></figcaption></figure>

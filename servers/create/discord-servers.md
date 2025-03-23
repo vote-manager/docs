@@ -36,6 +36,6 @@ After clicking submit, you should have a table that looks similar to the image b
 
 Your vote tracker is now fully setup! A message will be sent with your configured embed to the channel you configured whenever a user gives gems to/bumps your server
 
-If you forgot or lose your passphrase, you can view it using the `/setup passphrase server` command
+If you forget or lose your passphrase you can run the `/trackers passphrase` command. Select **Server** for the type then choose the tracker from the options and run the command
 
-<figure><img src="../../.gitbook/assets/discordservers-4.png" alt=""><figcaption><p>The setup passphrase command</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tracker_passphrase.png" alt=""><figcaption><p>Trackers Passphrase Command</p></figcaption></figure>
