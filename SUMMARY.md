@@ -34,6 +34,15 @@
 * [Removing](rewards/remove.md)
 * [Via Dashboard](rewards/dash.md)
 
+## Votes & Leaderboards <a href="#votes" id="votes"></a>
+
+* [Buckets](votes/buckets.md)
+
+***
+
+* [Leaderboard](leaderboard.md)
+* [Reseting Votes](reseting-votes.md)
+
 ## Useful Links
 
 * [Invite Vote Manager](https://discord.com/oauth2/authorize?client_id=959699003010871307\&permissions=292863462593\&scope=bot%20applications.commands)
