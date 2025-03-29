@@ -8,12 +8,12 @@ description: >-
 
 To add a new role reward, run the `/rewards add` command
 
-<figure><img src="../.gitbook/assets/Rewards Add #1.png" alt=""><figcaption><p>Rewards Add Command</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/rewards_add_1.png" alt=""><figcaption><p>Rewards Add Command</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Required Options" %}
-* `platform` - The platform to add a role reward on
-* `bot` - The bot you want to add a role reward for (only for `/rewards add bot`)
+* `type` - The type of tracker (**Bot**/**Server**)
+* `tracker` - The tracker you wish to add a reward for
 * `type` - The type of votes to check
 * `votes` - How many votes the user needs to be given the role
 * `role` - The role the user should be given
@@ -24,15 +24,7 @@ To add a new role reward, run the `/rewards add` command
 {% endtab %}
 {% endtabs %}
 
-<div>
-
-<figure><img src="../.gitbook/assets/Rewards Add #2.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Rewards Add #3.png" alt=""><figcaption><p>Options have been filled out</p></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/rewards_add_2.png" alt=""><figcaption><p>Options have been filled out</p></figcaption></figure>
 
 Once you have filled out all the options, you can run the command and the role reward will be saved
 

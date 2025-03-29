@@ -7,9 +7,9 @@ description: >-
 
 # Creating
 
-To get started with setup, run the `/setup create server` command and fill in the options
+To get started with setup, run the `/setup server` command and fill in the options
 
-<figure><img src="../../.gitbook/assets/Server Create #1.png" alt=""><figcaption><p>Setup Create Command</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/setup_server_1.png" alt=""><figcaption><p>Setup Command</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Required Options" %}
@@ -24,7 +24,7 @@ To get started with setup, run the `/setup create server` command and fill in th
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../../.gitbook/assets/Server Create #2.png" alt=""><figcaption><p>Options have been filled out</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/setup_server_2.png" alt=""><figcaption><p>Options have been filled out</p></figcaption></figure>
 
 Once you have filled out the options, run the command. Upon doing so, a  pop-up will appear allowing you to customise the embed on your vote message. Please see below for details about required & optional fields as well as default values
 
@@ -72,6 +72,8 @@ Once you have made your custom embed, press the submit button. This will close t
   * [Discord Servers](discord-servers.md)
   * [Disurl](disurl.md)
   * [Infinity Bots](ibl.md)
+  * [Discadia](discadia.md)
+  * [Discord Place](discord-place.md)
 * **2**: Details about your vote tracker including the channel, role & duration
 * **3**: This is the authentication password for your tracker. **Do not share this with anyone else!** We also recommend keeping this somewhere safe as you may need it later
 * **4:** The second embed is a preview of your vote message
