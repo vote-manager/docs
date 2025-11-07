@@ -26,6 +26,7 @@
 * [Creating](servers/create/README.md)
   * [Top.gg](servers/create/topgg.md)
   * [Discord Servers](servers/create/discord-servers.md)
+  * [Rankly](servers/create/rankly.md)
   * [Disurl](servers/create/disurl.md)
   * [Discord Place](servers/create/discord-place.md)
   * [Discadia](servers/create/discadia.md)
